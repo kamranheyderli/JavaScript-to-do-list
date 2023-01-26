@@ -1,0 +1,82 @@
+body {
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    border: 2px solid white;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+    #new_task {
+        width: 490px;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+
+        #addInput {
+
+            width: 300px;
+            height: 35px;
+            border: 2px solid green;
+            border-radius: 10px;
+            padding: 0 25px;
+
+
+        }
+
+        #addBtn {
+            width: 100px;
+            height: 35px;
+            background-color: rgb(8, 141, 8);
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+
+    }
+
+    #task_list {
+        width: 490px;
+        height: auto;
+        background-color: white;
+        margin-top: 60px;
+        border-radius: 10px;
+        padding: 20px 5px;
+        overflow-y: hidden;
+        
+
+        .task_items {
+            width: 450px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            padding: 0 15px;
+            
+
+
+            button {
+                width: 55px;
+                height: 30px;
+                background-color: red;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                margin-bottom: 5px;
+            }
+        }
+
+    }
+
+
+}
